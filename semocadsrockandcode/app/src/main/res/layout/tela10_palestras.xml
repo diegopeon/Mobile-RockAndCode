@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002535"
+    android:backgroundTint="#002535"
+    android:backgroundTintMode="screen"
+    android:contentDescription="tela de fundo do app"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    app:layout_scrollFlags="scroll"
+    tools:context=".tela10_Palestras"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="logo do app"
+                app:srcCompat="@drawable/_2_tela_02_logo" />
+
+            <ImageView
+                android:id="@+id/texto_nome_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="nome do app"
+                app:srcCompat="@drawable/_3_tela_02_nome" />
+
+            <ImageView
+                android:id="@+id/texto_palestras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Palestras"'
+                app:srcCompat="@drawable/_5_tela_10_tag_palestras" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/imagem_palestra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem da palestra'
+                app:srcCompat="@drawable/_6_tela_10_img_palestras" />
+
+            <ImageView
+                android:id="@+id/texto_agenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Agenda"'
+                app:srcCompat="@drawable/_7_tela_11_title_agenda" />
+
+            <ImageView
+                android:id="@+id/titulo_palestra01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='horario e titulo da palestra 01 "08h00 Abertura"'
+                app:srcCompat="@drawable/_8_tela_10_title_palestra1" />
+
+            <ImageView
+                android:id="@+id/foto_palestrante01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='foto do palestrante 01'
+                app:srcCompat="@drawable/_0_tela_10_icon_palestrante" />
+
+            <ImageView
+                android:id="@+id/nome_palestrante01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do palestrante 01'
+                app:srcCompat="@drawable/_4_tela_10_nome_palestrante01" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/titulo_palestra02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='horario e titulo da palestra 02 "09h00 Orientações: Problema"'
+                app:srcCompat="@drawable/_9_tela_10_title_palestra2" />
+
+            <ImageView
+                android:id="@+id/foto_palestrante02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='foto do palestrante 02'
+                app:srcCompat="@drawable/_0_tela_10_icon_palestrante" />
+
+            <ImageView
+                android:id="@+id/nome_palestrante02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do palestrante 02'
+                app:srcCompat="@drawable/_5_tela_10_nome_palestrante02" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/titulo_palestra03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='horario e titulo da palestra 03 "11h00 Orientações: Modelagem"'
+                app:srcCompat="@drawable/_0_tela_10_title_palestra3" />
+
+            <ImageView
+                android:id="@+id/foto_palestrante03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='foto do palestrante 03'
+                app:srcCompat="@drawable/_0_tela_10_icon_palestrante" />
+
+            <ImageView
+                android:id="@+id/nome_palestrante03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do palestrante 03'
+                app:srcCompat="@drawable/_6_tela_10_nome_palestrante03" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/titulo_palestra04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='horario e titulo da palestra 04 "14h00 Orientações: Prototipagem"'
+                app:srcCompat="@drawable/_1_tela_10_title_palestra4" />
+
+            <ImageView
+                android:id="@+id/foto_palestrante04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='foto do palestrante 04'
+                app:srcCompat="@drawable/_0_tela_10_icon_palestrante" />
+
+            <ImageView
+                android:id="@+id/nome_palestrante04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do palestrante 04'
+                app:srcCompat="@drawable/_7_tela_10_nome_palestrante04" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/titulo_palestra05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='horario e titulo da palestra 05 "16h00 Orientações: Pitch"'
+                app:srcCompat="@drawable/_2_tela_10_title_palestra5" />
+
+            <ImageView
+                android:id="@+id/foto_palestrante05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='foto do palestrante 05'
+                app:srcCompat="@drawable/_0_tela_10_icon_palestrante" />
+
+            <ImageView
+                android:id="@+id/nome_palestrante05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do palestrante 05'
+                app:srcCompat="@drawable/_8_tela_10_nome_palestrante05" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_1_tela_10_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/titulo_palestra06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='horario e titulo da palestra 06 "19h30 Premiação"'
+                app:srcCompat="@drawable/_3_tela_10_title_palestra6" />
+
+            <ImageView
+                android:id="@+id/foto_palestrante06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='foto do palestrante 06'
+                app:srcCompat="@drawable/_0_tela_10_icon_palestrante" />
+
+            <ImageView
+                android:id="@+id/nome_palestrante06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do palestrante 06'
+                app:srcCompat="@drawable/_9_tela_10_nome_palestrante06" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/texto_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="texto do copyright"
+                app:srcCompat="@drawable/_1_tela_08_texto_copyright" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

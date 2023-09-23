@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002535"
+    tools:context=".tela09_Hackathon">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Logo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="logo"
+                android:paddingTop="16dp"
+                android:paddingBottom="30dp"
+                android:src="@drawable/_3_tela_08_logo" />
+
+            <ImageView
+                android:id="@+id/Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="titulo do aplicativo"
+                android:paddingTop="16dp"
+                android:src="@drawable/_3_tela_02_nome" />
+
+            <ImageView
+                android:id="@+id/Barra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="barra divisoria"
+                android:paddingTop="16dp"
+                android:src="@drawable/_7_tela_09_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/tituloEvento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="nome do evento: Hackton"
+                android:paddingTop="16dp"
+                android:src="@drawable/_5_tela_07_tag_hackathon" />
+
+            <ImageView
+                android:id="@+id/ImagemEvento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="imagem do evento"
+                android:paddingTop="16dp"
+                android:src="@drawable/_6_tela_07_img_hackathon" />
+
+            <ImageView
+                android:id="@+id/tituloDesafio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="titulo: desafio"
+                android:paddingTop="16dp"
+                android:src="@drawable/_7_tela_09_title_desafio" />
+
+            <ImageView
+                android:id="@+id/textoDesafio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="texto do desafio"
+                android:paddingTop="16dp"
+                android:src="@drawable/_8_tela_09_desc_desafio" />
+
+            <ImageView
+                android:id="@+id/tituloMentores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Titulo: Mentores"
+                android:paddingTop="16dp"
+                android:src="@drawable/_9_tela_09_title_mentores" />
+
+
+            <ImageView
+                android:id="@+id/Mentores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Lista de mentores"
+                android:paddingTop="16dp"
+                android:src="@drawable/g32751" />
+
+            <ImageView
+                android:id="@+id/TituloAgenda"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Titulo: Agenda"
+                android:paddingTop="16dp"
+                android:src="@drawable/_9_tela_09_title_agenda" />
+
+            <ImageView
+                android:id="@+id/Horarios"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Horarios do evento"
+                android:paddingTop="16dp"
+                android:src="@drawable/horarios_agenda" />
+
+            <ImageView
+                android:id="@+id/tituloPremio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Titulo: Premio"
+                android:paddingTop="16dp"
+                android:src="@drawable/_5_tela_09_title_premio" />
+
+            <ImageView
+                android:id="@+id/textoPremio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Texto Premio"
+                android:paddingTop="16dp"
+                android:src="@drawable/_6_tela_09_desc_premio" />
+
+            <ImageView
+                android:id="@+id/Barra2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Barra divisoria"
+                android:paddingTop="16dp"
+                android:src="@drawable/_1_tela_10_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Texto copyright"
+                android:paddingTop="30dp"
+                android:paddingBottom="16dp"
+                android:src="@drawable/_1_tela_08_texto_copyright" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

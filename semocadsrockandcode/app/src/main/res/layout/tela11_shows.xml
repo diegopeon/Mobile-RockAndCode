@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002535"
+    android:backgroundTint="#002535"
+    android:backgroundTintMode="screen"
+    android:contentDescription="tela de fundo do app"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    app:layout_scrollFlags="scroll"
+    tools:context=".tela11_Shows"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="logo do app"
+                app:srcCompat="@drawable/_2_tela_02_logo" />
+
+            <ImageView
+                android:id="@+id/texto_nome_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="nome do app"
+                app:srcCompat="@drawable/_3_tela_02_nome" />
+
+            <ImageView
+                android:id="@+id/texto_shows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Shows"'
+                app:srcCompat="@drawable/_5_tela_11_tag_shows" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/imagem_shows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem da show'
+                app:srcCompat="@drawable/_6_tela_11_img_shows" />
+
+            <ImageView
+                android:id="@+id/texto_agenda_shows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Agenda"'
+                app:srcCompat="@drawable/_7_tela_10_title_agenda" />
+
+            <ImageView
+                android:id="@+id/imagem_banda01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem da banda 01'
+                app:srcCompat="@drawable/_8_tela_11_card_banda01" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/imagem_banda02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem da banda 02'
+                app:srcCompat="@drawable/_9_tela_11_card_banda02" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/imagem_banda03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem da banda 03'
+                app:srcCompat="@drawable/_0_tela_11_card_banda03" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/imagem_banda04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem da banda 04'
+                app:srcCompat="@drawable/_1_tela_11_card_banda04" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/imagem_banda05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem da banda 05'
+                app:srcCompat="@drawable/_2_tela_11_card_banda05" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/texto_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="texto do copyright"
+                app:srcCompat="@drawable/_1_tela_08_texto_copyright" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

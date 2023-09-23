@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002535"
+    android:backgroundTint="#002535"
+    android:backgroundTintMode="screen"
+    android:contentDescription="tela de fundo do app"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    app:layout_scrollFlags="scroll"
+    tools:context=".tela08_QuemSomos"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_marginTop="30dp"
+                android:contentDescription='logo do app'
+                app:srcCompat="@drawable/_2_tela_02_logo" />
+
+            <ImageView
+                android:id="@+id/texto_nome_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do app'
+                app:srcCompat="@drawable/_3_tela_02_nome" />
+
+            <ImageView
+                android:id="@+id/texto_quem_somos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Quem Somos"'
+                app:srcCompat="@drawable/_5_tela_13_tag_quem_somos" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria06"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='barra divisoria de conteudo'
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/imagem_quem_somos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem da equipe'
+                app:srcCompat="@drawable/_6_tela_13_img_quem_somos" />
+
+            <ImageView
+                android:id="@+id/texto_nossa_equipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Nossa Equipe"'
+                app:srcCompat="@drawable/_7_tela_13_title_equipe" />
+
+            <ImageView
+                android:id="@+id/nome_componenteEquipe01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do componente 01 da equipe "Luiza Gabriella"'
+                app:srcCompat="@drawable/_8_tela_13_nome_equipe01" />
+
+            <ImageView
+                android:id="@+id/imagem_componenteEquipe01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem do componente 01 da equipe'
+                app:srcCompat="@drawable/_9_tela_13_img_equipe01" />
+
+            <ImageView
+                android:id="@+id/cargo_componenteEquipe01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='cargo do componente 01 da equipe "Product Owner"'
+                app:srcCompat="@drawable/_0_tela_13_cargo_equipe01" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria07"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/nome_componenteEquipe02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do componente 02 da equipe "Luan Galvão"'
+                app:srcCompat="@drawable/_1_tela_13_nome_equipe02" />
+
+            <ImageView
+                android:id="@+id/imagem_componenteEquipe02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem do componente 02 da equipe'
+                app:srcCompat="@drawable/_2_tela_13_img_equipe02" />
+
+            <ImageView
+                android:id="@+id/cargo_componenteEquipe02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='cargo do componente 02 da equipe "UX Designer"'
+                app:srcCompat="@drawable/_3_tela_13_cargo_equipe02" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria08"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/nome_componenteEquipe03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do componente 03 da equipe "Lucca Nygaard"'
+                app:srcCompat="@drawable/_4_tela_13_nome_equipe03" />
+
+            <ImageView
+                android:id="@+id/imagem_componenteEquipe03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem do componente 03 da equipe'
+                app:srcCompat="@drawable/_5_tela_13_img_equipe03" />
+
+            <ImageView
+                android:id="@+id/cargo_componenteEquipe03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='cargo do componente 03 da equipe "Back-end Developer"'
+                app:srcCompat="@drawable/_6_tela_13_cargo_equipe03" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria09"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/nome_componenteEquipe04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do componente 04 da equipe "Sarah Nogueira"'
+                app:srcCompat="@drawable/_7_tela_13_nome_equipe04" />
+
+            <ImageView
+                android:id="@+id/imagem_componenteEquipe04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem do componente 04 da equipe'
+                app:srcCompat="@drawable/_8_tela_13_img_equipe04" />
+
+            <ImageView
+                android:id="@+id/cargo_componenteEquipe04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='cargo do componente 04 da equipe "Back-end Developer"'
+                app:srcCompat="@drawable/_6_tela_13_cargo_equipe03" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/nome_componenteEquipe05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='nome do componente 05 da equipe "Diego Peon"'
+                app:srcCompat="@drawable/_0_tela_13_nome_equipe05" />
+
+            <ImageView
+                android:id="@+id/imagem_componenteEquipe05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='imagem do componente 05 da equipe'
+                app:srcCompat="@drawable/_1_tela_13_img_equipe05" />
+
+            <ImageView
+                android:id="@+id/cargo_componenteEquipe05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='cargo do componente 05 da equipe "Front-end Developer"'
+                app:srcCompat="@drawable/_2_tela_13_cargo_equipe05" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/texto_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="texto do copyright"
+                app:srcCompat="@drawable/_1_tela_08_texto_copyright" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#002535"
+    android:backgroundTint="#002535"
+    android:backgroundTintMode="screen"
+    android:contentDescription="tela de fundo do app"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    app:layout_scrollFlags="scroll"
+    tools:context=".tela07_Home"
+    tools:visibility="visible">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="logo do app"
+                app:srcCompat="@drawable/_2_tela_02_logo" />
+
+            <ImageView
+                android:id="@+id/texto_nome_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="nome do app"
+                app:srcCompat="@drawable/_3_tela_02_nome" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/texto_nome_hackathon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="texto &quot;Hackathon&quot;"
+                app:srcCompat="@drawable/_5_tela_07_tag_hackathon" />
+
+            <ImageView
+                android:id="@+id/imagem_hackathon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="imagem do hackathon"
+                app:srcCompat="@drawable/_6_tela_07_img_hackathon" />
+
+            <ImageView
+                android:id="@+id/texto_descricao_hackathon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="descrição do hackathon"
+                app:srcCompat="@drawable/_7_tela_07_desc_hackathon" />
+
+            <ImageButton
+                android:id="@+id/botao_enjoy_it_hackathon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription='botão "enjoy it"'
+                app:srcCompat="@drawable/_7_tela_07_botao_enjoy_it" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/texto_nome_palestras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Palestras"'
+                app:srcCompat="@drawable/_5_tela_10_tag_palestras" />
+
+            <ImageView
+                android:id="@+id/imagem_palestras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="imagem da palestra"
+                android:scrollbarStyle="insideInset"
+                app:srcCompat="@drawable/_6_tela_10_img_palestras" />
+
+            <ImageView
+                android:id="@+id/texto_descricao_palestras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="descrição da palestra"
+                app:srcCompat="@drawable/_0_tela_07_desc_palestras" />
+
+            <ImageButton
+                android:id="@+id/botao_enjoy_it_palestras"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#00FFFFFF"
+                android:contentDescription='botão "enjoy it"'
+                app:srcCompat="@drawable/_7_tela_07_botao_enjoy_it" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/texto_nome_shows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Shows"'
+                tools:srcCompat="@drawable/_1_tela_07_tag_shows" />
+
+            <ImageView
+                android:id="@+id/imagem_shows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="imagem do show"
+                app:srcCompat="@drawable/_2_tela_07_img_shows" />
+
+            <ImageView
+                android:id="@+id/texto_descricao_shows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="descrição do show"
+                app:srcCompat="@drawable/_3_tela_07_desc_shows" />
+
+            <ImageButton
+                android:id="@+id/botao_enjoy_it_shows"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#00FFFFFF"
+                android:contentDescription='botão "enjoy it"'
+                app:srcCompat="@drawable/_7_tela_07_botao_enjoy_it" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/texto_nome_arena_jogos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription='texto "Arena de Jogos"'
+                app:srcCompat="@drawable/_5_tela_12_tag_jogos" />
+
+            <ImageView
+                android:id="@+id/imagem_arena_jogos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="imagem da arena de jogos"
+                app:srcCompat="@drawable/_5_tela_07_img_jogos" />
+
+            <ImageView
+                android:id="@+id/texto_descricao_arena_jogos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="descrição da arena de jogos"
+                app:srcCompat="@drawable/_6_tela_07_desc_jogos" />
+
+            <ImageButton
+                android:id="@+id/botao_enjoy_it_arena_jogos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="#00FFFFFF"
+                android:contentDescription='botão "enjoy it"'
+                app:srcCompat="@drawable/_7_tela_07_botao_enjoy_it" />
+
+            <ImageView
+                android:id="@+id/barra_divisoria05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:contentDescription="barra divisoria de conteudo"
+                app:srcCompat="@drawable/_0_tela_08_barra_divisao" />
+
+            <ImageView
+                android:id="@+id/texto_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="texto do copyright"
+                app:srcCompat="@drawable/_1_tela_08_texto_copyright" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
