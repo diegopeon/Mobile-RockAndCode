@@ -9,6 +9,6 @@ public class tela09_Hackathon extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.tela08_quem_somos);
+        setContentView(R.layout.tela09_hackathon);
     }
 }

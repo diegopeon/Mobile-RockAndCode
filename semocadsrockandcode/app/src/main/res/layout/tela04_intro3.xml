@@ -4,15 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tela01_Iniciar">
+    android:background="@drawable/_1_tela_04_background"
+    tools:context=".tela04_intro03">
 
-    <TextView
+    <ImageView
+        android:id="@+id/texto_nessa_edicao"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="200dp"
+        android:contentDescription='texto "Nesta edição"'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_2_tela_03_texto_01" />
+
+    <ImageView
+        android:id="@+id/nome_do_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:contentDescription='texto com o nome do app'
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/texto_nessa_edicao"
+        app:srcCompat="@drawable/_3_tela_03_nome" />
+
+    <ImageView
+        android:id="@+id/texto_ira_te_proporcionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:contentDescription='texto "irá te proporcionar"'
+        app:layout_constraintBottom_toTopOf="@+id/texto_descricao_palestras_intro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome_do_app"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_4_tela_03_texto_02" />
+
+    <ImageView
+        android:id="@+id/texto_descricao_palestras_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:contentDescription='texto de descrição sobre as palestras'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_5_tela_04_descricao" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

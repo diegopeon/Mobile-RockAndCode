@@ -5,7 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#002535"
+    android:backgroundTint="#002535"
+    android:backgroundTintMode="screen"
+    android:contentDescription="tela de fundo do app"
+    android:fadeScrollbars="true"
+    android:isScrollContainer="true"
+    app:layout_scrollFlags="scroll"
     tools:context=".tela09_Hackathon">
+    tools:visibility="visible">
 
     <ScrollView
         android:layout_width="409dp"
@@ -91,7 +98,8 @@
                 android:layout_height="wrap_content"
                 android:contentDescription="Lista de mentores"
                 android:paddingTop="16dp"
-                android:src="@drawable/g32751" />
+                android:src="@drawable/g32751"
+                tools:srcCompat="@drawable/mentores" />
 
             <ImageView
                 android:id="@+id/TituloAgenda"
